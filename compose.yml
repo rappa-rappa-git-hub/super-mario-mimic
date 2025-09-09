@@ -1,0 +1,7 @@
+version: "3"
+services:
+ mario:
+   container_name: mariocont
+   image: govadoc746/mario:game
+   ports:
+     - "8080:8080"
